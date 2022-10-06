@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PascalsTriangle
+comment1.params=rows
+comment1.target=PascalsTriangle(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ PascalsTriangle.\ \n\ \n\ @param\ Requires\ an\ integer\ which\ determines\ the\ number\ of\ rows\ to\ solve\ for.\n
+comment2.params=
+comment2.target=void\ solve()
+comment2.text=\n\ Solves\ the\ matrix\ by\ starting\ at\ the\ bottom-rightmost\ cell,\ solving\ for\ the\ value\ in\ that\ cell,\ then\ repeats\ that\ process\n\ for\ each\ cell\ in\ each\ column\ of\ each\ row.\n\ \n\ For\ each\ cell,\ solveCell\ is\ invoked\ which\ recursively\ solves\ for\ the\ specified\ cell's\ value,\ and\ then\ stores\ that\ value\ in\ said\ cell.\ \n
+comment3.params=row\ col
+comment3.target=int\ solveCell(int,\ int)
+comment3.text=\n\ Solves\ for\ the\ value\ of\ a\ single\ cell\ in\ the\ array.\ \n\ If\ the\ cell\ has\ the\ same\ row\ and\ column\ index,\ or\ if\ the\ cell\ is\ in\ the\ first\ column,\ it's\ value\ is\ a\ 1.\n\ Otherwise,\ the\ value\ of\ a\ cell\ is\ equal\ to\ the\ sum\ of\ the\ two\ cells\ "above"\ it.\ I.e.\ the\ [row-1][col-1]\ cell\ and\ [row-1][col]\ cell.\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Prints\ the\ contents\ of\ the\ ragged\ array.\n
+numComments=5

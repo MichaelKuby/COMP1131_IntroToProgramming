@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=DeckOfCards
+comment1.params=
+comment1.target=DeckOfCards()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ DeckOfCards\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Output\ the\ contents\ of\ the\ deck\n\n\ @return\ \ \ \ A\ string\ t\ describing\ each\ card\ in\ the\ deck,\ in\ order.\n
+comment3.params=
+comment3.target=java.lang.String\ toStringDealt()
+comment3.text=\n\ Output\ the\ contents\ of\ the\ dealt\ cards\n\n\ @return\ \ \ \ A\ string\ describing\ each\ card\ that\ has\ been\ dealt,\ in\ order.\n
+comment4.params=
+comment4.target=void\ shuffle()
+comment4.text=\n\ Shuffles\ the\ deck\ \n
+comment5.params=
+comment5.target=Card\ deal()
+comment5.text=\n\ Deal\ a\ card\n
+comment6.params=
+comment6.target=int\ remaining()
+comment6.text=\n\ Return\ the\ number\ of\ cards\ remaining.\ j\ tracks\ the\ number\ of\ cards\ that\ have\ been\ dealt,\ so\ the\ remaining\ cards\n\ in\ deck\ equals\ the\ length\ of\ the\ array\ minus\ j.\n
+numComments=7

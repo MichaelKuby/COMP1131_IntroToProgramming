@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=RandomArray
+comment1.params=size
+comment1.target=RandomArray(int)
+comment1.text=\n\ Constructor\ that\ receives\ the\ size\ of\ the\ array\ to\ be\ allocated,\ \n\ then\ populates\ the\ array\ with\ random\ numbers\ from\ the\ range\ [\ 0,\ the\ size\ of\ the\ array\ ].\n
+comment2.params=
+comment2.target=int\ max()
+comment2.text=\n\ Maximum\ Value\n\n\ @return\ \ \ \ the\ maximum\ value\ found\ in\ the\ array.\n
+comment3.params=
+comment3.target=int\ min()
+comment3.text=\n\ Minimum\ Value\n\n\ @return\ \ \ \ the\ minimum\ value\ found\ in\ the\ array.\n
+comment4.params=
+comment4.target=double\ average()
+comment4.text=\n\ Average\ Value\n\n\ @return\ \ \ \ the\ average\ value\ of\ the\ integers\ in\ the\ array\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ A\ string\ representation\ of\ the\ array\ values\n\n\ @return\ \ \ \ A\ string\ of\ values\n
+numComments=6
